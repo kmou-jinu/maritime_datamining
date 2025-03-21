@@ -1,0 +1,10 @@
+# 과제 1
+a = [2, 3, 4, 5, 6]
+
+rev_a = []
+
+for _ in range(len(a)):
+    rev_a.append(a.pop())
+
+print("a =", a)       
+print("rev_a =", rev_a) 
